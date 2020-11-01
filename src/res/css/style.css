@@ -1,0 +1,36 @@
+body {
+  /* background-color: black; */
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.list-group,
+.job-section {
+  max-height: 80vh;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.list-group-item {
+  border-left: none;
+  border-right: none;
+}
+
+.job-section label {
+  font-size: large;
+  font-weight: 600;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #7046ae !important;
+  border: none;
+}
+.border-primary {
+  outline: none;
+  border: 1px solid #7046ae !important;
+}
+.text-primary {
+  color: #7046ae !important;
+}
